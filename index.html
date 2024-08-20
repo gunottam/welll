@@ -232,11 +232,8 @@
                 opacity: 0.5;
             }
         }
-        .next {
+.next {
     position: absolute;
-    top: calc(100% + 20px); /* Places the button 20px below the .shadow div */
-    left: 50%;
-    transform: translateX(-50%);
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     border: none;
     border-radius: 25px;
@@ -248,23 +245,20 @@
     font-weight: bold;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
-    text-align: center;
-    width: max-content;
-    display: block;
-    text-decoration: none; /* Ensures no underline appears for links */
+    top: 80%;
+    left: 46.489%;
 }
 
 .next:hover {
     background: linear-gradient(to right, #feb47b, #ff7e5f);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-    transform: translate(-50%, -2px); /* Keeps the button centered when hovered */
+    transform: translateY(-2px);
 }
 
 .next:active {
-    transform: translate(-50%, 0);
+    transform: translateY(0);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
     </style>
     
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
